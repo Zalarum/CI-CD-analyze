@@ -21,8 +21,8 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t your-docker-username/ci-cd-example .
+        docker build -t your-docker-username/ci-cd-analyze .
 
     - name: Push Docker image
       run: |
-        docker push your-docker-username/ci-cd-example
+        docker push your-docker-username/ci-cd-analyze
