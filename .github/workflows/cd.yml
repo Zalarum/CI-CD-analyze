@@ -21,11 +21,11 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t your-docker-username/ci-cd-example:latest .
+        docker build -t zalarum/ci-cd-example:latest .
 
     - name: List Docker images
       run: docker images
 
     - name: Push Docker image to Docker Hub
       run: |
-        docker push your-docker-username/ci-cd-example:latest
+        docker push zalarum/ci-cd-example:latest
